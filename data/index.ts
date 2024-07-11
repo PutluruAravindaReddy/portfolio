@@ -73,6 +73,21 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "HireSphere - Next.js Job Portal",
+    shortTitle: "HireSphere",
+    des: "Developed a comprehensive job portal using Next.js. Implemented user authentication via Google OAuth and email/password login, with separate profiles for candidates and recruiters. Recruiters can post jobs and updates, while candidates can apply for jobs and manage activities. Incorporated search and filter options based on roles and companies.",
+    img: "/hiresphere.png",
+    iconLists: [
+      "/html.png",
+      "/next.svg",
+      "/tailwind.png",
+      "/api.png",
+      "/mongodb.png",
+    ],
+    link: "next-js-job-portal.vercel.app",
+  },
+  {
+    id: 2,
     title: "Hotel Booking Website",
     shortTitle: "Hotel_Booking_Website",
     des: "A full-stack project featuring a user login system and professional database. Utilizes HTML and Bootstrap for the front end and Node.js with MongoDB for the back end. Includes cloud storage for image handling via Cloudinary.",
@@ -88,37 +103,28 @@ export const projects = [
     link: "https://hotel-website-3xbf.onrender.com/listings",
   },
   {
-    id: 2,
+    id: 3,
     title: "Computer Vision Lab Website",
     shortTitle: "Computer_Vision_Lab_Website",
     des: "Developed a responsive and modern website for the Computer Vision Lab at SRM University. Utilized Next.js and Tailwind CSS to showcase the lab's research and activities effectively.",
     img: "/vclab.png",
     iconLists: [
       "/html.png",
-      "/tailwind.png",
       "/next.svg",
+      "/tailwind.png",
       "/api.png",
       "/mongodb.png",
     ],
     link: "https://vc-vertical.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "YouTube Clone",
     shortTitle: "YouTube_Clone",
     des: "A front-end project replicating key features of YouTube using HTML, CSS, and JavaScript. Leveraged Google API to fetch and display real data, providing a practical application of front-end development skills and API integration.",
     img: "/youtube.png",
     iconLists: ["/html.png", "/css.png", "/js.png", "/api.png"],
     link: "https://putluruaravindareddy.github.io/Youtube_clone/",
-  },
-  {
-    id: 4,
-    title: "React To-Do List App",
-    shortTitle: "To_Do_List_App",
-    des: "Developed a user-friendly to-do list application using React and Tailwind CSS. Implemented features such as task addition, deletion, and completion tracking to enhance productivity.",
-    img: "/todo.png",
-    iconLists: ["/html.png", "/tailwind.png", "/react.png"],
-    link: "https://todo-list-app-hazel-one.vercel.app",
   },
 ];
 
