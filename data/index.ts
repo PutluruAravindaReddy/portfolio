@@ -122,7 +122,7 @@ export const projects = [
     title: "YouTube Clone",
     shortTitle: "YouTube_Clone",
     des: "A front-end project replicating key features of YouTube using HTML, CSS, and JavaScript. Leveraged Google API to fetch and display real data, providing a practical application of front-end development skills and API integration.",
-    img: "/youtube.png",
+    img: "/Youtube.png",
     iconLists: ["/html.png", "/css.png", "/js.png", "/api.png"],
     link: "https://putluruaravindareddy.github.io/Youtube_clone/",
   },
